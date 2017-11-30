@@ -1,10 +1,4 @@
-
-
-
-
-
-
-/*#logoCust {
+#logoCust {
 	float: left;
 	width: 250px;
 	height: 90px;
@@ -16,4 +10,55 @@
 	text-align: center;
 	text-decoration: none;
 	background: #4aaaa5;
-	}*/
+	}
+
+/*#navSide li {
+	display: inline;
+}*/
+
+#navStyle {
+	float: right;
+	width: 30%;
+	margin-right: 10%;
+}
+
+li {
+	float: left;
+	display: inline;
+}
+
+#main-container {
+  padding-top: 130px;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.sidebar {
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}

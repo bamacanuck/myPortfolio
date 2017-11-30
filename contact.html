@@ -1,87 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-	<title>Contact Me</title>
+	<title>Welcome</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-	<header>
-
-		<div id="topBig">
-
-			<nav>
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-
-			<div id="topSmall">
-				<h1>Shane Scott</h1>		
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-3"
+				<a href="index.html" id="logoCust">Shane Scott</a>		
+			</div>
+			<div class="col-md-7">
+				<nav class="navbar navbar-default" id="navStyle">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
 
 		</div>
 
-	</header>
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-5 main-section">	
+				<h1>Contact</h1>
 
-	<br>
+			      <form id="contact-form">
+			        <ul>
+			          <li>
+			            <label for="name">Name</label>
+			            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+			          </li>
+			          <li>
+			            <label for="email">Email</label>
+			            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+			          </li>
+			          <li>
+			            <label for="message">Message</label>
+			            <textarea id="message" name="message" required="required"></textarea>
+			          </li>
+			        </ul>
+			        <input type="submit">
+			      </form>
 
-	<section>
-		
-		<div id="contactBlock">
+			    </section>
 			
-			<h2 class="main">Contact</h2>
-			<div id=bigMidLine>				
-				</div>
-
-  			<div class="container">
-    			<form action="/someAction.php">
-      			<label for="name">Name</label>
-      			<input type="text" id="name" name="name" placeholder="	John Smith">
-
-      			<label for="email">Email</label>
-      			<input type="text" id="email" name="e-mail" placeholder="example@gmail.com">
-
-      			<label for="message">Message</label>
-      			<textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
-
-      			<input type="submit" value="Submit">
-    			</form>
-  			</div>
-
-		</div>
-
-		<div id="connectBlock">
-			<h2 id="connect">Connect with Me</h2>
-			<br><br>
-			<div id=connectLine>				
 			</div>
-			<br>
-			<div id=iconList>
-				<a href="https://github.com/bamacanuck">
-					<img alt="GitHub" src="assets/images/GitHub_icon64.png" width="64" height="64"></a>
-				<a href="https://www.linkedin.com/in/s-r-scott-a44507132/">
-					<img alt="LinkedIn" src="assets/images/LinkedIn_icon64.png" width="64" height="64"></a>
-				<a href="https://stackoverflow.com/users/8845161/shane-scott">
-					<img alt="StackOverflow" src="assets/images/stackoverflowtest.png" width="58" height="58"></a>
+			<div class="col-md-1">				
 			</div>
-		</div>
+			<div class="col-md-3 sidebar">
 
-	</section>
+				<h2>Connect with Me</h2>
 
-	<div id="spacer-contact"></div>
+					<ul>
 
-	<!-- I know there must be a more elegant (and accepted) way to go about spacing this. -->
+			        <li><a href="https://github.com/bamacanuck/"><img src="assets/images/github-128.png" class="social img-responsive" alt="GitHub" /></a></li>
+			        <li><a href="https://www.linkedin.com/in/s-r-scott-a44507132/"><img src="assets/images/linkedin-128.png" class="social img-responsive" alt="LinkedIn" /></a></li>
+			        <li><a href="https://stackoverflow.com/users/8845161/shane-scott/"><img src="assets/images/stackoverflow-128.png" class="social img-responsive" alt="Stack Overflow" /></a></li>
 
-	<div id="tealDivider">
+			    	</ul>
+				
+			</div>
+			<div class="col-md-1">
+			</div>
 	</div>
 
-	<footer id="footer">
-		&copy; Copyright 2017 S.R. Scott Productions
-	</footer>
+	<footer>
+    <div class="container">
+      Copyright &copy; 2017 S.R. Scott
+    </div>
+  </footer>
 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
