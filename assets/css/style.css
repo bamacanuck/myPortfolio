@@ -5,8 +5,10 @@ body {
   /* Typography */
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
+  background: green;
+
   /* Visual */
-  background-image: url("../images/rockywall_double.png");
+  /*background-image: url("../images/rockywall_double.png");*/
 }
 
 html {
