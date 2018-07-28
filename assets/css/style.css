@@ -60,7 +60,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #fff;
-  background: #fff;
+  background: #101917;
   border-bottom: 2px solid #ccc;
 }
 
@@ -75,7 +75,7 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #3a8474;
 }
 
 nav {
@@ -106,8 +106,8 @@ footer {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #101917;
+  border-top: 8px solid #3a8474;
 }
 
 /* sidebar */
@@ -118,7 +118,7 @@ footer {
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
-  background: #fff;
+  background: #101917;
   border: 1px solid #ddd;
 }
 
@@ -153,7 +153,7 @@ h3,
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
+  background: #101917;
   border: 1px solid #ddd;
 }
 
