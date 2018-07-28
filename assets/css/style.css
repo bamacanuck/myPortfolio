@@ -44,7 +44,7 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid #3a8474;
 }
 
 h2,
@@ -73,7 +73,7 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: black;
   text-align: center;
   text-decoration: none;
   background: #3a8474;
@@ -128,7 +128,8 @@ h3,
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #3a8474;
+  color: #3a8474;
 }
 
 .social {
@@ -156,6 +157,10 @@ h3,
   margin: 0 0 40px;
   background: #101917;
   border: 1px solid #ddd;
+}
+
+.main-section h1 {
+  color: #3a8474;
 }
 
 /* portfolio page */
